@@ -1,2 +1,2 @@
 # fastapi
-FastAPI example
+API example using FastAPI library
