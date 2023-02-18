@@ -8,7 +8,7 @@ model.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 
-@app.get("/")
+@app.get("/", tags=["welcome"])
 def welcome():
     return "Welcome"
 
