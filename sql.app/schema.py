@@ -15,8 +15,7 @@ class PostRequest(BaseModel):
     title: Optional[str] = None
     body: Optional[str] = None
 
-
-class ErrorResponse (BaseModel):
+class ErrorResponse(BaseModel):
     code: str
     status: str
     message: str

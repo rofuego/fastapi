@@ -7,3 +7,10 @@ class Post(Base):
     id = Column(Integer, primary_key=True, index=True)
     title = Column(String)
     body = Column(String)
+
+
+class Comment(Base):
+    __tablename__ = "comment"
+    id = Column(Integer, primary_key=True, index=True)
+    body = Column(String)
+

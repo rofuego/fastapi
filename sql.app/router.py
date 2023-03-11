@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, Response
+from fastapi import APIRouter, Depends
 from database import SessionLocal
 from sqlalchemy.orm import Session
 from schema import PostRequest
